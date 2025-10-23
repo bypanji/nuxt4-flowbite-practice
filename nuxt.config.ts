@@ -6,6 +6,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   vite: {
+    server: {
+      proxy: {
+        '/api': process.env.BASE_URL ?? '',
+      },
+    },
     plugins: [
       tailwindcss(),
     ],
