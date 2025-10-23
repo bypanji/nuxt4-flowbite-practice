@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { onMounted } from 'vue'
 import { useFlowbite } from '~/composables/useFlowbite';
 onMounted(() => {
 
@@ -86,21 +85,20 @@ onMounted(() => {
             <!-- Carousel wrapper -->
             <div class="relative h-56 overflow-hidden rounded-lg sm:h-64 xl:h-80 2xl:h-96">
                  <!-- Item 1 -->
-                <div id="carousel-item-1" class="hidden duration-700 ease-in-out">
-                    <span class="absolute text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
-                    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fid.wikipedia.org%2Fwiki%2FKue&psig=AOvVaw29gcQAWf2pey7MEng9RUto&ust=1761279117781000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCICotJO6uZADFQAAAAAdAAAAABAE" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                <div id="carousel-item-1" class="hidden duration-700 ease-in-out w-full h-full">
+                    <img src="https://flowbite.com/docs/images/carousel/carousel-3.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                 </div>
                 <!-- Item 2 -->
                 <div id="carousel-item-2" class="hidden duration-700 ease-in-out">
-                    <img src="https://image.makewebeasy.net/makeweb/m_1920x0/rGAbosWut/DefaultData/AGS_0541_min.jpg?v=202405291424" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <img src="https://flowbite.com/docs/images/carousel/carousel-5.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                 </div>
                 <!-- Item 3 -->
                 <div id="carousel-item-3" class="hidden duration-700 ease-in-out">
-                    <img src="https://image.makewebeasy.net/makeweb/m_1920x0/rGAbosWut/DefaultData/AGS_0541_min.jpg?v=202405291424" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <img src="https://flowbite.com/docs/images/carousel/carousel-4.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                 </div>
                 <!-- Item 4 -->
                 <div id="carousel-item-4" class="hidden duration-700 ease-in-out">
-                    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fid.wikipedia.org%2Fwiki%2FKue&psig=AOvVaw29gcQAWf2pey7MEng9RUto&ust=1761279117781000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCICotJO6uZADFQAAAAAdAAAAABAE" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <img src="https://flowbite.com/docs/images/carousel/carousel-5.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                 </div>
             </div>
             <!-- Slider indicators -->
